@@ -43,19 +43,34 @@ header {
 
 main {
   display: flex;
-  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
 }
-.child1 {
-  align-self: flex-end;
+img {
+  width: 600px;
+  padding: 2rem 2rem 0rem 2rem;
+}
+aside {
+  border: 0.5rem solid lightblue;
+}
+h4 {
+  text-align: center;
+  font-size: 3rem;
+}
+aside ul {
+  margin: 0rem 0rem 5rem 10rem;
+  font-size: 2rem;
 }
 
-.child2 {
-  align-self: flex-start;
+div {
+  font-size: 1.5rem;
+  padding: 0rem 1rem 0rem 3rem;
 }
 
 footer {
   background-color: rgb(199, 196, 196);
   text-align: center;
+
   position: absolute;
   bottom: 0;
   width: 100%;
