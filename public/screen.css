@@ -9,4 +9,67 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(218, 242, 250);
+}
+
+h1 {
+  font-family: 'Times New Roman', Times;
+  font-size: 3rem;
+  color: grey;
+  text-align: center;
+}
+
+.articles {
+  list-style: none;
+  background-color: rgb(64, 178, 223);
+  color: azure;
+  font-family: Georgia, serif;
+}
+
+.articles ul {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  list-style: none;
+}
+.articles a {
+  color: azure;
+}
+
+header {
+  color: grey;
+  text-align: right;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+.child1 {
+  align-self: flex-end;
+}
+
+.child2 {
+  align-self: flex-start;
+}
+
+footer {
+  background-color: rgb(199, 196, 196);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-bottom: 1rem;
+}
+
+.more ul {
+  font-size: larger;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  list-style: none;
+}
+.more a {
+  color: rgb(68, 67, 67);
 }
